@@ -21,6 +21,7 @@
 		E28B135B2C8C3B15005F6236 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E28B135E2C8C3B15005F6236 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E28B13662C8C3FD0005F6236 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
+		E28B13692C8D6F68005F6236 /* Secrets.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Secrets.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +38,7 @@
 		E28B134B2C8C3B14005F6236 = {
 			isa = PBXGroup;
 			children = (
+				E28B13692C8D6F68005F6236 /* Secrets.xcconfig */,
 				E28B13662C8C3FD0005F6236 /* .swiftlint.yml */,
 				E28B13562C8C3B14005F6236 /* Seoullo */,
 				E28B13552C8C3B14005F6236 /* Products */,
@@ -173,6 +175,7 @@
 /* Begin XCBuildConfiguration section */
 		E28B13602C8C3B15005F6236 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E28B13692C8D6F68005F6236 /* Secrets.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -236,6 +239,7 @@
 		};
 		E28B13612C8C3B15005F6236 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E28B13692C8D6F68005F6236 /* Secrets.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -292,6 +296,7 @@
 		};
 		E28B13632C8C3B15005F6236 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E28B13692C8D6F68005F6236 /* Secrets.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -321,6 +326,7 @@
 		};
 		E28B13642C8C3B15005F6236 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E28B13692C8D6F68005F6236 /* Secrets.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
