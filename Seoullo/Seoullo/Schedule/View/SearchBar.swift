@@ -15,7 +15,7 @@ struct SearchBar: View {
         HStack {
             Image(systemName: "magnifyingglass")
                 .foregroundStyle(.point)
-            TextField("추가하고 싶은 장소를 입력해주세요.", text: $searchText)
+            TextField("장소를 검색하세요", text: $searchText)
             if isEditing {
                 Button {
                     isEditing = false
