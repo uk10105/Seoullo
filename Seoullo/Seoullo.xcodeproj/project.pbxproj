@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		E1BA3FAE2C909F4F00ED0ADA /* Secrets.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = E1BA3FAD2C909F4F00ED0ADA /* Secrets.xcconfig */; };
 		E1BA3FB12C90A1A600ED0ADA /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1BA3FB02C90A1A600ED0ADA /* Colors.xcassets */; };
+		E1BA3FB62C91C3E400ED0ADA /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BA3FB52C91C3E400ED0ADA /* SearchBar.swift */; };
 		E28B13582C8C3B14005F6236 /* SeoulloApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28B13572C8C3B14005F6236 /* SeoulloApp.swift */; };
 		E28B135A2C8C3B14005F6236 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28B13592C8C3B14005F6236 /* ContentView.swift */; };
 		E28B135C2C8C3B15005F6236 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E28B135B2C8C3B15005F6236 /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 /* Begin PBXFileReference section */
 		E1BA3FAD2C909F4F00ED0ADA /* Secrets.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Secrets.xcconfig; sourceTree = "<group>"; };
 		E1BA3FB02C90A1A600ED0ADA /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		E1BA3FB52C91C3E400ED0ADA /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		E28B13542C8C3B14005F6236 /* Seoullo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Seoullo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E28B13572C8C3B14005F6236 /* SeoulloApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeoulloApp.swift; sourceTree = "<group>"; };
 		E28B13592C8C3B14005F6236 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -50,6 +52,22 @@
 			path = Resource;
 			sourceTree = "<group>";
 		};
+		E1BA3FB22C91C33100ED0ADA /* Schedule */ = {
+			isa = PBXGroup;
+			children = (
+				E1BA3FB32C91C39C00ED0ADA /* View */,
+			);
+			path = Schedule;
+			sourceTree = "<group>";
+		};
+		E1BA3FB32C91C39C00ED0ADA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E1BA3FB52C91C3E400ED0ADA /* SearchBar.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		E28B134B2C8C3B14005F6236 = {
 			isa = PBXGroup;
 			children = (
@@ -71,6 +89,7 @@
 		E28B13562C8C3B14005F6236 /* Seoullo */ = {
 			isa = PBXGroup;
 			children = (
+				E1BA3FB22C91C33100ED0ADA /* Schedule */,
 				E1BA3FAF2C90A18500ED0ADA /* Resource */,
 				E28B13572C8C3B14005F6236 /* SeoulloApp.swift */,
 				E28B13592C8C3B14005F6236 /* ContentView.swift */,
@@ -193,6 +212,7 @@
 			files = (
 				E28B135A2C8C3B14005F6236 /* ContentView.swift in Sources */,
 				E28B13582C8C3B14005F6236 /* SeoulloApp.swift in Sources */,
+				E1BA3FB62C91C3E400ED0ADA /* SearchBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
