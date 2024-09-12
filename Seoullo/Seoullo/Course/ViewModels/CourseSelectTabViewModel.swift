@@ -1,5 +1,5 @@
 //
-//  CourseButtonSelectViewModel.swift
+//  CourseSelectTabViewModel.swift
 //  Seoullo
 //
 //  Created by 이유경 on 9/12/24.
@@ -14,6 +14,6 @@ enum CourseButtonSelect: String {
     case culture = "문화시설"
 }
 
-class CourseButtonSelectViewModel: ObservableObject {
+class CourseSelectTabViewModel: ObservableObject {
     @Published var mainContentType: CourseButtonSelect = .course
 }
