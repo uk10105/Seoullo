@@ -8,23 +8,20 @@
 import SwiftUI
 
 struct CourseSelectMainView: View {
-    @State var currentTab: Int
-    let courseTabOptions: [String] = CourseTabOptions.allCases.map{ $0.rawValue }
+    @State var currentTab: CourseTabOptions
     
     var body: some View {
         HStack {
-                ForEach(courseTabOptions.indices, id: \.self) { index in
-                    let title = courseTabOptions[index]
-                    CourseTabItem(currentTab: $currentTab, title: title, tab: index)
-                }
+            ForEach(CourseTabOptions.allCases, id: \.self) { index in
+                CourseTabItem(currentTab: $currentTab, tab: index)
             }
-            .padding(.horizontal)
+        }
+        .padding(.horizontal, 25)
         .background(.white)
         .frame(height: 40)
-        .frame(width: .infinity)
     }
 }
 
 #Preview {
-    CourseSelectMainView(currentTab: 0)
+    CourseSelectMainView(currentTab: .course)
 }

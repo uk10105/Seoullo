@@ -8,19 +8,20 @@
 import SwiftUI
 
 struct CourseTabItem: View {
-    @Binding var currentTab: Int
-    var title: String
-    var tab: Int
+    @Binding var currentTab: CourseTabOptions
+    var tab: CourseTabOptions
     
     var body: some View {
         Button(action: {
             currentTab = tab
         }, label: {
             VStack {
-                Text(title)
-                    .foregroundStyle(.blackText)
+                Text(tab.rawValue)
+                    .foregroundStyle(currentTab == tab ? .blackText : .grayApp)
+                    .font(.headline)
+                    .bold()
                 Rectangle()
-                    .frame(width: 80, height: 7)
+                    .frame(width: 80, height: 5)
                     .foregroundStyle(currentTab == tab ? .black : .clear)
             }
             .animation(.spring(), value: currentTab)
@@ -30,5 +31,5 @@ struct CourseTabItem: View {
 }
 
 #Preview {
-    CourseTabItem(currentTab: .constant(0), title: "course", tab: 0)
+    CourseTabItem(currentTab: .constant(.course), tab: .course)
 }
