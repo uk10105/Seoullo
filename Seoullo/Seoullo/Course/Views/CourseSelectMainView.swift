@@ -11,14 +11,27 @@ struct CourseSelectMainView: View {
     @State var currentTab: CourseTabOptions
     
     var body: some View {
-        HStack {
-            ForEach(CourseTabOptions.allCases, id: \.self) { index in
-                CourseTabItem(currentTab: $currentTab, tab: index)
+        VStack {
+            HStack {
+                ForEach(CourseTabOptions.allCases, id: \.self) { index in
+                    CourseTabItem(currentTab: $currentTab, tab: index)
+                }
+            }
+            .padding(.horizontal, 25)
+            .background(.white)
+        .frame(height: 40)
+            
+            switch currentTab {
+            case .course:
+                RecommendCourseView()
+            case .hotPlace:
+                HotSpotView()
+            case .festival:
+                FestivalView()
+            case .culture:
+                CulturalView()
             }
         }
-        .padding(.horizontal, 25)
-        .background(.white)
-        .frame(height: 40)
     }
 }
 
