@@ -26,7 +26,6 @@ struct ScheduleMainButtonStyle: ButtonStyle {
                 RoundedRectangle(cornerRadius: 15)
                     .fill(backgroundColor)
             )
-            .padding(.horizontal, 25)
             .opacity(configuration.isPressed ? 0.5 : 1)
     }
 }

@@ -11,6 +11,11 @@
 		4EEB3D0C2C96647400DE9332 /* FestivalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEB3D0B2C96647300DE9332 /* FestivalView.swift */; };
 		4EEB3D102C96661E00DE9332 /* CulturalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEB3D0F2C96661E00DE9332 /* CulturalView.swift */; };
 		4EEB3D122C96662D00DE9332 /* HotSpotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEB3D112C96662D00DE9332 /* HotSpotView.swift */; };
+		E191CB3A2C96F2D3001C97B5 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E191CB392C96F2D3001C97B5 /* Date+Extension.swift */; };
+		E191CB3D2C96F320001C97B5 /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = E191CB3C2C96F320001C97B5 /* Trip.swift */; };
+		E191CB3F2C96F33A001C97B5 /* DailyPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = E191CB3E2C96F33A001C97B5 /* DailyPlan.swift */; };
+		E191CB412C96F34A001C97B5 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = E191CB402C96F34A001C97B5 /* Place.swift */; };
+		E191CB452C972782001C97B5 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E191CB442C972782001C97B5 /* CalendarView.swift */; };
 		E1BA3FB12C90A1A600ED0ADA /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1BA3FB02C90A1A600ED0ADA /* Colors.xcassets */; };
 		E1BA3FB62C91C3E400ED0ADA /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BA3FB52C91C3E400ED0ADA /* SearchBar.swift */; };
 		E1BA3FB82C91CA1B00ED0ADA /* ScheduleSubButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BA3FB72C91CA1B00ED0ADA /* ScheduleSubButtonStyle.swift */; };
@@ -33,6 +38,12 @@
 		4EEB3D0B2C96647300DE9332 /* FestivalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FestivalView.swift; sourceTree = "<group>"; };
 		4EEB3D0F2C96661E00DE9332 /* CulturalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CulturalView.swift; sourceTree = "<group>"; };
 		4EEB3D112C96662D00DE9332 /* HotSpotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotSpotView.swift; sourceTree = "<group>"; };
+		E191CB372C96F211001C97B5 /* Secrets.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Secrets.xcconfig; sourceTree = "<group>"; };
+		E191CB392C96F2D3001C97B5 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		E191CB3C2C96F320001C97B5 /* Trip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
+		E191CB3E2C96F33A001C97B5 /* DailyPlan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyPlan.swift; sourceTree = "<group>"; };
+		E191CB402C96F34A001C97B5 /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		E191CB442C972782001C97B5 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
 		E1BA3FB02C90A1A600ED0ADA /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		E1BA3FB52C91C3E400ED0ADA /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		E1BA3FB72C91CA1B00ED0ADA /* ScheduleSubButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleSubButtonStyle.swift; sourceTree = "<group>"; };
@@ -44,7 +55,6 @@
 		E28B135B2C8C3B15005F6236 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E28B135E2C8C3B15005F6236 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E28B13662C8C3FD0005F6236 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
-		E28B13702C93179C005F6236 /* Secrets.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Secrets.xcconfig; sourceTree = "<group>"; };
 		E28B137A2C9327E2005F6236 /* CourseSelectMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseSelectMainView.swift; sourceTree = "<group>"; };
 		E28B137C2C932F26005F6236 /* CourseTabOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseTabOptions.swift; sourceTree = "<group>"; };
 		E28B137E2C932FC3005F6236 /* CourseTabItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseTabItem.swift; sourceTree = "<group>"; };
@@ -95,6 +105,24 @@
 			path = CulturalView;
 			sourceTree = "<group>";
 		};
+		E191CB382C96F2C6001C97B5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E191CB392C96F2D3001C97B5 /* Date+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E191CB3B2C96F315001C97B5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E191CB3C2C96F320001C97B5 /* Trip.swift */,
+				E191CB3E2C96F33A001C97B5 /* DailyPlan.swift */,
+				E191CB402C96F34A001C97B5 /* Place.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		E1BA3FAF2C90A18500ED0ADA /* Resource */ = {
 			isa = PBXGroup;
 			children = (
@@ -106,6 +134,7 @@
 		E1BA3FB22C91C33100ED0ADA /* Schedule */ = {
 			isa = PBXGroup;
 			children = (
+				E191CB3B2C96F315001C97B5 /* Model */,
 				E1BA3FB32C91C39C00ED0ADA /* View */,
 			);
 			path = Schedule;
@@ -118,6 +147,7 @@
 				E1BA3FB72C91CA1B00ED0ADA /* ScheduleSubButtonStyle.swift */,
 				E1BA3FB92C91CA2800ED0ADA /* ScheduleMainButtonStyle.swift */,
 				E1BA3FBB2C91D6DB00ED0ADA /* SchedulePlaceDetailView.swift */,
+				E191CB442C972782001C97B5 /* CalendarView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -125,7 +155,7 @@
 		E28B134B2C8C3B14005F6236 = {
 			isa = PBXGroup;
 			children = (
-				E28B13702C93179C005F6236 /* Secrets.xcconfig */,
+				E191CB372C96F211001C97B5 /* Secrets.xcconfig */,
 				E28B13662C8C3FD0005F6236 /* .swiftlint.yml */,
 				E28B13562C8C3B14005F6236 /* Seoullo */,
 				E28B13552C8C3B14005F6236 /* Products */,
@@ -143,6 +173,7 @@
 		E28B13562C8C3B14005F6236 /* Seoullo */ = {
 			isa = PBXGroup;
 			children = (
+				E191CB382C96F2C6001C97B5 /* Extensions */,
 				E28B13712C931839005F6236 /* Course */,
 				E1BA3FB22C91C33100ED0ADA /* Schedule */,
 				E1BA3FAF2C90A18500ED0ADA /* Resource */,
@@ -310,6 +341,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E191CB3D2C96F320001C97B5 /* Trip.swift in Sources */,
 				E28B135A2C8C3B14005F6236 /* ContentView.swift in Sources */,
 				4EEB3D0C2C96647400DE9332 /* FestivalView.swift in Sources */,
 				E1BA3FB82C91CA1B00ED0ADA /* ScheduleSubButtonStyle.swift in Sources */,
@@ -317,8 +349,12 @@
 				4EEB3D102C96661E00DE9332 /* CulturalView.swift in Sources */,
 				E28B137F2C932FC3005F6236 /* CourseTabItem.swift in Sources */,
 				E1BA3FBC2C91D6DB00ED0ADA /* SchedulePlaceDetailView.swift in Sources */,
+				E191CB3F2C96F33A001C97B5 /* DailyPlan.swift in Sources */,
+				E191CB412C96F34A001C97B5 /* Place.swift in Sources */,
 				E28B13582C8C3B14005F6236 /* SeoulloApp.swift in Sources */,
+				E191CB452C972782001C97B5 /* CalendarView.swift in Sources */,
 				4EEB3D0A2C96645D00DE9332 /* RecommendCourseView.swift in Sources */,
+				E191CB3A2C96F2D3001C97B5 /* Date+Extension.swift in Sources */,
 				E1BA3FBA2C91CA2800ED0ADA /* ScheduleMainButtonStyle.swift in Sources */,
 				4EEB3D122C96662D00DE9332 /* HotSpotView.swift in Sources */,
 				E28B137D2C932F26005F6236 /* CourseTabOptions.swift in Sources */,
@@ -331,7 +367,7 @@
 /* Begin XCBuildConfiguration section */
 		E28B13602C8C3B15005F6236 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E28B13702C93179C005F6236 /* Secrets.xcconfig */;
+			baseConfigurationReference = E191CB372C96F211001C97B5 /* Secrets.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -395,7 +431,7 @@
 		};
 		E28B13612C8C3B15005F6236 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E28B13702C93179C005F6236 /* Secrets.xcconfig */;
+			baseConfigurationReference = E191CB372C96F211001C97B5 /* Secrets.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -452,7 +488,6 @@
 		};
 		E28B13632C8C3B15005F6236 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E28B13702C93179C005F6236 /* Secrets.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -482,7 +517,6 @@
 		};
 		E28B13642C8C3B15005F6236 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E28B13702C93179C005F6236 /* Secrets.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
