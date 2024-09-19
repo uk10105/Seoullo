@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>$(API_KEY)</string>
+	<key>AREA_BASED_LIST_URL</key>
+	<string>$(AREA_BASED_LIST_URL)</string>
+	<key>DETAIL_COMMON_URL</key>
+	<string>$(DETAIL_COMMON_URL)</string>
+	<key>DETAIL_INFO_URL</key>
+	<string>$(DETAIL_INFO_URL)</string>
+	<key>DETAIL_INTRO_URL</key>
+	<string>$(DETAIL_INTRO_URL)</string>
+</dict>
+</plist>
