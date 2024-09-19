@@ -10,7 +10,7 @@ import Foundation
 struct Trip {
     var startDate: Date
     var endDate: Date
-    var dailyPlans: [DailyPlan]
+    var dailyPlans: [DailyPlan]?
 
     var duration: Int {
         return (Calendar.current.dateComponents([.day], from: startDate, to: endDate).day ?? 0) + 1
