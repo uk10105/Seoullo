@@ -12,6 +12,7 @@
 		4EEB3D102C96661E00DE9332 /* CulturalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEB3D0F2C96661E00DE9332 /* CulturalView.swift */; };
 		4EEB3D122C96662D00DE9332 /* HotSpotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEB3D112C96662D00DE9332 /* HotSpotView.swift */; };
 		E113F5102C9C6FF600284ED2 /* MainMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E113F50F2C9C6FF600284ED2 /* MainMapView.swift */; };
+		E113F5122C9F311A00284ED2 /* MainMapModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E113F5112C9F311A00284ED2 /* MainMapModalView.swift */; };
 		E191CB3A2C96F2D3001C97B5 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E191CB392C96F2D3001C97B5 /* Date+Extension.swift */; };
 		E191CB3D2C96F320001C97B5 /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = E191CB3C2C96F320001C97B5 /* Trip.swift */; };
 		E191CB3F2C96F33A001C97B5 /* DailyPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = E191CB3E2C96F33A001C97B5 /* DailyPlan.swift */; };
@@ -41,6 +42,7 @@
 		4EEB3D0F2C96661E00DE9332 /* CulturalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CulturalView.swift; sourceTree = "<group>"; };
 		4EEB3D112C96662D00DE9332 /* HotSpotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotSpotView.swift; sourceTree = "<group>"; };
 		E113F50F2C9C6FF600284ED2 /* MainMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMapView.swift; sourceTree = "<group>"; };
+		E113F5112C9F311A00284ED2 /* MainMapModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMapModalView.swift; sourceTree = "<group>"; };
 		E191CB392C96F2D3001C97B5 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
 		E191CB3C2C96F320001C97B5 /* Trip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
 		E191CB3E2C96F33A001C97B5 /* DailyPlan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyPlan.swift; sourceTree = "<group>"; };
@@ -154,6 +156,7 @@
 				E1BA3FBB2C91D6DB00ED0ADA /* SchedulePlaceDetailView.swift */,
 				E191CB442C972782001C97B5 /* CalendarView.swift */,
 				E113F50F2C9C6FF600284ED2 /* MainMapView.swift */,
+				E113F5112C9F311A00284ED2 /* MainMapModalView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -352,6 +355,7 @@
 				E191CB3D2C96F320001C97B5 /* Trip.swift in Sources */,
 				E28B135A2C8C3B14005F6236 /* ContentView.swift in Sources */,
 				4EEB3D0C2C96647400DE9332 /* FestivalView.swift in Sources */,
+				E113F5122C9F311A00284ED2 /* MainMapModalView.swift in Sources */,
 				E1BA3FB82C91CA1B00ED0ADA /* ScheduleSubButtonStyle.swift in Sources */,
 				E28B139E2C9C55AE005F6236 /* Config.swift in Sources */,
 				E28B137B2C9327E2005F6236 /* CourseSelectMainView.swift in Sources */,
