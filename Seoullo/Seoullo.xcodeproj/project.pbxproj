@@ -77,8 +77,8 @@
 				4EEB3D092C96645D00DE9332 /* RecommendTripView.swift */,
 				4EEB3D132C96B12400DE9332 /* TodaysTripView.swift */,
 				4EEB3D172C96BD7F00DE9332 /* TrendingTripView.swift */,
-				4EEB3D192C96BE0800DE9332 /* ThemedTripView.swift */,
 				4EEB3D1B2C96C06200DE9332 /* TripDetailView.swift */,
+				4EEB3D192C96BE0800DE9332 /* ThemedTripView.swift */,
 			);
 			path = RecommendTripView;
 			sourceTree = "<group>";

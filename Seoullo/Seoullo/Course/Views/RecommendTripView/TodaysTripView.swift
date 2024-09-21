@@ -59,8 +59,8 @@ struct TodaysTripView: View {
                     }
                 }
             }
-            .sheet(item: $selectedTripIndex) { index in
-                TripDetailView()
+            .fullScreenCover(item: $selectedTripIndex) { index in
+                TripDetailView(tripIndex: index)
             }
         }
     }
