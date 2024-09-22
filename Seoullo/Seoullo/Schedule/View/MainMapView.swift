@@ -11,7 +11,7 @@ import MapKit
 struct MainMapView: View {
     @State private var searchText: String = ""
     @State private var mapCameraPosition: MapCameraPosition = .automatic
-    @State private var selectedDate: Date? = dummyTrip.dailyPlans?.first?.date
+    @State private var selectedDate: Date? = dummyTrips[0].dailyPlans?.first?.date
     @State private var modalOffsetY: CGFloat = UIScreen.main.bounds.height - 50
     @State private var selectedDailyPlan: DailyPlan?
 
@@ -42,7 +42,7 @@ struct MainMapView: View {
                 .padding(.top, 8)
                 ScrollView(.horizontal, showsIndicators: false) {
                     HStack(spacing: 10) {
-                        ForEach(dummyTrip.dailyPlans ?? [], id: \.date) { dailyPlan in
+                        ForEach(dummyTrips[0].dailyPlans ?? [], id: \.date) { dailyPlan in
                             Button(action: {
                                 selectedDate = dailyPlan.date
                                 selectedDailyPlan = dailyPlan
@@ -95,7 +95,7 @@ struct MainMapView: View {
         }
         .edgesIgnoringSafeArea(.all)
         .onAppear {
-            if let firstPlan = dummyTrip.dailyPlans?.first {
+            if let firstPlan = dummyTrips[0].dailyPlans?.first {
                 selectedDate = firstPlan.date
                 selectedDailyPlan = firstPlan
                 moveToFirstPlace(of: firstPlan)
@@ -105,7 +105,7 @@ struct MainMapView: View {
 
     private var selectedPlaces: [Place] {
         guard let selectedDate = selectedDate else { return [] }
-        return dummyTrip.dailyPlans?.first(where: { $0.date == selectedDate })?.places ?? []
+        return dummyTrips[0].dailyPlans?.first(where: { $0.date == selectedDate })?.places ?? []
     }
 
     private func formatDateButton(_ date: Date) -> String {
