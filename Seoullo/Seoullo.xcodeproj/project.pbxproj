@@ -42,6 +42,10 @@
 		E28B137D2C932F26005F6236 /* CourseTabOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28B137C2C932F26005F6236 /* CourseTabOptions.swift */; };
 		E28B137F2C932FC3005F6236 /* CourseTabItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28B137E2C932FC3005F6236 /* CourseTabItem.swift */; };
 		E28B139E2C9C55AE005F6236 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28B139D2C9C55AE005F6236 /* Config.swift */; };
+		E2C565FB2CA03B2B008FE09E /* LocationInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C565FA2CA03B2B008FE09E /* LocationInfoView.swift */; };
+		E2C565FD2CA03B47008FE09E /* CategoryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C565FC2CA03B47008FE09E /* CategoryButton.swift */; };
+		E2C565FF2CA03BA4008FE09E /* Culture.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C565FE2CA03BA4008FE09E /* Culture.swift */; };
+		E2C566012CA0532F008FE09E /* CulturalModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C566002CA0532F008FE09E /* CulturalModalView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -79,8 +83,12 @@
 		E28B137C2C932F26005F6236 /* CourseTabOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseTabOptions.swift; sourceTree = "<group>"; };
 		E28B137E2C932FC3005F6236 /* CourseTabItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseTabItem.swift; sourceTree = "<group>"; };
 		E28B139D2C9C55AE005F6236 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
-		E28B13A02C9C55FA005F6236 /* Secrets.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Secrets.xcconfig; sourceTree = "<group>"; };
 		E28B13A12C9C56C1005F6236 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E2C565F92CA039AC008FE09E /* Secrets.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Secrets.xcconfig; sourceTree = "<group>"; };
+		E2C565FA2CA03B2B008FE09E /* LocationInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationInfoView.swift; sourceTree = "<group>"; };
+		E2C565FC2CA03B47008FE09E /* CategoryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryButton.swift; sourceTree = "<group>"; };
+		E2C565FE2CA03BA4008FE09E /* Culture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Culture.swift; path = Seoullo/Course/Views/CulturalView/Culture.swift; sourceTree = SOURCE_ROOT; };
+		E2C566002CA0532F008FE09E /* CulturalModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CulturalModalView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +137,9 @@
 			isa = PBXGroup;
 			children = (
 				4EEB3D0F2C96661E00DE9332 /* CulturalView.swift */,
+				E2C565FA2CA03B2B008FE09E /* LocationInfoView.swift */,
+				E2C565FC2CA03B47008FE09E /* CategoryButton.swift */,
+				E2C566002CA0532F008FE09E /* CulturalModalView.swift */,
 			);
 			path = CulturalView;
 			sourceTree = "<group>";
@@ -186,7 +197,7 @@
 		E28B134B2C8C3B14005F6236 = {
 			isa = PBXGroup;
 			children = (
-				E28B13A02C9C55FA005F6236 /* Secrets.xcconfig */,
+				E2C565F92CA039AC008FE09E /* Secrets.xcconfig */,
 				E28B13662C8C3FD0005F6236 /* .swiftlint.yml */,
 				E28B13562C8C3B14005F6236 /* Seoullo */,
 				E28B13552C8C3B14005F6236 /* Products */,
@@ -261,6 +272,7 @@
 			children = (
 				4EEB3D1D2C9EB65600DE9332 /* Route.swift */,
 				4EEB3D1F2C9EBC6800DE9332 /* RouteSummary.swift */,
+				E2C565FE2CA03BA4008FE09E /* Culture.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -383,10 +395,12 @@
 				E191CB3D2C96F320001C97B5 /* Trip.swift in Sources */,
 				E28B135A2C8C3B14005F6236 /* ContentView.swift in Sources */,
 				4EEB3D0C2C96647400DE9332 /* FestivalView.swift in Sources */,
+				E2C565FB2CA03B2B008FE09E /* LocationInfoView.swift in Sources */,
 				E113F5122C9F311A00284ED2 /* MainMapModalView.swift in Sources */,
 				E1BA3FB82C91CA1B00ED0ADA /* ScheduleSubButtonStyle.swift in Sources */,
 				E28B139E2C9C55AE005F6236 /* Config.swift in Sources */,
 				E28B137B2C9327E2005F6236 /* CourseSelectMainView.swift in Sources */,
+				E2C565FF2CA03BA4008FE09E /* Culture.swift in Sources */,
 				4EEB3D102C96661E00DE9332 /* CulturalView.swift in Sources */,
 				E28B137F2C932FC3005F6236 /* CourseTabItem.swift in Sources */,
 				E1BA3FBC2C91D6DB00ED0ADA /* SchedulePlaceDetailView.swift in Sources */,
@@ -397,12 +411,14 @@
 				4EEB3D0A2C96645D00DE9332 /* RecommendTripView.swift in Sources */,
 				E191CB452C972782001C97B5 /* CalendarView.swift in Sources */,
 				E191CB3A2C96F2D3001C97B5 /* Date+Extension.swift in Sources */,
+				E2C565FD2CA03B47008FE09E /* CategoryButton.swift in Sources */,
 				E1BA3FBA2C91CA2800ED0ADA /* ScheduleMainButtonStyle.swift in Sources */,
 				4EEB3D202C9EBC6800DE9332 /* RouteSummary.swift in Sources */,
 				4EEB3D122C96662D00DE9332 /* HotSpotView.swift in Sources */,
 				4E85BBC62C9EE3B900008F66 /* RouteListView.swift in Sources */,
 				4EEB3D1E2C9EB65600DE9332 /* Route.swift in Sources */,
 				E28B137D2C932F26005F6236 /* CourseTabOptions.swift in Sources */,
+				E2C566012CA0532F008FE09E /* CulturalModalView.swift in Sources */,
 				E113F5102C9C6FF600284ED2 /* MainMapView.swift in Sources */,
 				E1BA3FB62C91C3E400ED0ADA /* SearchBar.swift in Sources */,
 			);
@@ -413,7 +429,6 @@
 /* Begin XCBuildConfiguration section */
 		E28B13602C8C3B15005F6236 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E28B13A02C9C55FA005F6236 /* Secrets.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -477,7 +492,6 @@
 		};
 		E28B13612C8C3B15005F6236 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E28B13A02C9C55FA005F6236 /* Secrets.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -534,7 +548,6 @@
 		};
 		E28B13632C8C3B15005F6236 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E28B13A02C9C55FA005F6236 /* Secrets.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -565,7 +578,6 @@
 		};
 		E28B13642C8C3B15005F6236 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E28B13A02C9C55FA005F6236 /* Secrets.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
