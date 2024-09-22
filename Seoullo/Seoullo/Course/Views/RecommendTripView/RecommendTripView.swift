@@ -9,15 +9,17 @@ import SwiftUI
 
 struct RecommendTripView: View {
     var body: some View {
-        VStack {
-            TodaysTripView()
-                .padding(.bottom, 20)
-            TrendingTripView()
-                .padding(.bottom, 20)
-            ThemedTripView()
-                .padding(.bottom, 20)
+        NavigationView {
+            ScrollView(showsIndicators: false) {
+                TodaysTripView()
+                    .padding(.bottom, 20)
+//                TrendingTripView()
+//                    .padding(.bottom, 20)
+                ThemedTripView()
+                    .padding(.bottom, 20)
+            }
+            .padding(25)
         }
-        .padding(25)
     }
 }
 
