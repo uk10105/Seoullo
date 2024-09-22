@@ -38,7 +38,7 @@ struct SchedulePlaceDetailView: View {
                             )
                     }
                 }
-                TextField("", text: $memo)
+                TextField("메모를 입력하세요.", text: $memo)
                     .padding(12)
                     .frame(maxWidth: .infinity)
                     .frame(minHeight: 50)
@@ -49,7 +49,7 @@ struct SchedulePlaceDetailView: View {
                 Spacer()
             }
         }
-        .padding(.horizontal, 25)
+        .padding(.bottom, 8)
     }
 }
 

@@ -1,5 +1,5 @@
 //
-//  SearchBar.swift
+//  SearchBarView.swift
 //  Seoullo
 //
 //  Created by 김혜수 on 9/11/24.
@@ -7,21 +7,26 @@
 
 import SwiftUI
 
-struct SearchBar: View {
+struct SearchBarView: View {
     @Binding var searchText: String
-    @State var isEditing = true
+    @State var isEditing = false
     var handler: () -> Void
     var body: some View {
         HStack {
             Image(systemName: "magnifyingglass")
                 .foregroundStyle(.point)
+                .padding(.leading, 10)
             TextField("장소를 검색하세요", text: $searchText)
+            Spacer()
             if isEditing {
                 Button {
                     isEditing = false
                     searchText = ""
                 } label: {
-                    Text("취소")
+                    Image(systemName: "xmark")
+                        .foregroundStyle(.point)
+                        .fontWeight(.semibold)
+                        .padding(.trailing, -10)
                 }
                 .padding(.trailing, 25)
                 .transition(.move(edge: .trailing))
@@ -29,7 +34,6 @@ struct SearchBar: View {
         }
         .frame(height: 50)
         .frame(maxWidth: .infinity)
-        .padding(.horizontal, 25)
         .background(Color.white)
         .clipShape(.rect(cornerRadius: 15))
         .onTapGesture {
@@ -40,5 +44,5 @@ struct SearchBar: View {
 }
 
 #Preview {
-    SearchBar(searchText: .constant("경복궁"), handler: {})
+    SearchBarView(searchText: .constant("경복궁"), handler: {})
 }
