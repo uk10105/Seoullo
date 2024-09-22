@@ -12,5 +12,10 @@
 	<string>$(DETAIL_INFO_URL)</string>
 	<key>DETAIL_INTRO_URL</key>
 	<string>$(DETAIL_INTRO_URL)</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
 </dict>
 </plist>
