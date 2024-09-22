@@ -12,12 +12,18 @@ struct MainMapModalView: View {
 
     var body: some View {
         VStack {
+            RoundedRectangle(cornerRadius: 2.5)
+                .fill(Color.gray.opacity(0.3))
+                .frame(width: 80, height: 5)
+                .padding(.top, 10)
+
             HStack {
                 Text(dailyPlan.date.formatToString())
                     .font(.system(size: 20, weight: .bold))
                     .foregroundStyle(.blackText)
                 Spacer()
             }
+            .padding(.top, 25)
             .padding(.bottom, 20)
 
             ScrollView {
