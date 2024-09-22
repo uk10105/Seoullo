@@ -40,6 +40,7 @@ struct MainMapModalView: View {
             Button("추천 코스 보러가기") {
 
             }.buttonStyle(ScheduleMainButtonStyle())
+                .padding(.bottom, 25)
         }
         .padding(.horizontal, 25)
     }
