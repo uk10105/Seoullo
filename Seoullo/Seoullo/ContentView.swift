@@ -17,7 +17,9 @@ struct ContentView: View {
 //                .foregroundStyle(.point)
 //        }
 //        .padding()
-        CourseSelectMainView(currentTab: .course)
+//        CourseSelectMainView(currentTab: .course)
+
+        TripManageView()
     }
 }
 
