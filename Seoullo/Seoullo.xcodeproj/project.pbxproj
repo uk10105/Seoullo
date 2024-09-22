@@ -12,14 +12,15 @@
 		4EEB3D0C2C96647400DE9332 /* FestivalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEB3D0B2C96647300DE9332 /* FestivalView.swift */; };
 		4EEB3D102C96661E00DE9332 /* CulturalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEB3D0F2C96661E00DE9332 /* CulturalView.swift */; };
 		4EEB3D122C96662D00DE9332 /* HotSpotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEB3D112C96662D00DE9332 /* HotSpotView.swift */; };
-		E113F5102C9C6FF600284ED2 /* MainMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E113F50F2C9C6FF600284ED2 /* MainMapView.swift */; };
-		E113F5122C9F311A00284ED2 /* MainMapModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E113F5112C9F311A00284ED2 /* MainMapModalView.swift */; };
 		4EEB3D142C96B12400DE9332 /* TodaysTripView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEB3D132C96B12400DE9332 /* TodaysTripView.swift */; };
 		4EEB3D182C96BD7F00DE9332 /* TrendingTripView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEB3D172C96BD7F00DE9332 /* TrendingTripView.swift */; };
 		4EEB3D1A2C96BE0800DE9332 /* ThemedTripView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEB3D192C96BE0800DE9332 /* ThemedTripView.swift */; };
 		4EEB3D1C2C96C06200DE9332 /* TripDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEB3D1B2C96C06200DE9332 /* TripDetailView.swift */; };
 		4EEB3D1E2C9EB65600DE9332 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEB3D1D2C9EB65600DE9332 /* Route.swift */; };
 		4EEB3D202C9EBC6800DE9332 /* RouteSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEB3D1F2C9EBC6800DE9332 /* RouteSummary.swift */; };
+		E113F5102C9C6FF600284ED2 /* MainMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E113F50F2C9C6FF600284ED2 /* MainMapView.swift */; };
+		E113F5122C9F311A00284ED2 /* MainMapModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E113F5112C9F311A00284ED2 /* MainMapModalView.swift */; };
+		E113F5142CA052E900284ED2 /* TripManageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E113F5132CA052E900284ED2 /* TripManageView.swift */; };
 		E191CB3A2C96F2D3001C97B5 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E191CB392C96F2D3001C97B5 /* Date+Extension.swift */; };
 		E191CB3D2C96F320001C97B5 /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = E191CB3C2C96F320001C97B5 /* Trip.swift */; };
 		E191CB3F2C96F33A001C97B5 /* DailyPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = E191CB3E2C96F33A001C97B5 /* DailyPlan.swift */; };
@@ -49,14 +50,15 @@
 		4EEB3D0B2C96647300DE9332 /* FestivalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FestivalView.swift; sourceTree = "<group>"; };
 		4EEB3D0F2C96661E00DE9332 /* CulturalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CulturalView.swift; sourceTree = "<group>"; };
 		4EEB3D112C96662D00DE9332 /* HotSpotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotSpotView.swift; sourceTree = "<group>"; };
-		E113F50F2C9C6FF600284ED2 /* MainMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMapView.swift; sourceTree = "<group>"; };
-		E113F5112C9F311A00284ED2 /* MainMapModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMapModalView.swift; sourceTree = "<group>"; };
 		4EEB3D132C96B12400DE9332 /* TodaysTripView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodaysTripView.swift; sourceTree = "<group>"; };
 		4EEB3D172C96BD7F00DE9332 /* TrendingTripView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingTripView.swift; sourceTree = "<group>"; };
 		4EEB3D192C96BE0800DE9332 /* ThemedTripView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemedTripView.swift; sourceTree = "<group>"; };
 		4EEB3D1B2C96C06200DE9332 /* TripDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDetailView.swift; sourceTree = "<group>"; };
 		4EEB3D1D2C9EB65600DE9332 /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Route.swift; path = Seoullo/Course/Views/RecommendTripView/Route.swift; sourceTree = SOURCE_ROOT; };
 		4EEB3D1F2C9EBC6800DE9332 /* RouteSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RouteSummary.swift; path = Seoullo/Course/Views/RecommendTripView/RouteSummary.swift; sourceTree = SOURCE_ROOT; };
+		E113F50F2C9C6FF600284ED2 /* MainMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMapView.swift; sourceTree = "<group>"; };
+		E113F5112C9F311A00284ED2 /* MainMapModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMapModalView.swift; sourceTree = "<group>"; };
+		E113F5132CA052E900284ED2 /* TripManageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripManageView.swift; sourceTree = "<group>"; };
 		E191CB392C96F2D3001C97B5 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
 		E191CB3C2C96F320001C97B5 /* Trip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
 		E191CB3E2C96F33A001C97B5 /* DailyPlan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyPlan.swift; sourceTree = "<group>"; };
@@ -176,6 +178,7 @@
 				E191CB442C972782001C97B5 /* CalendarView.swift */,
 				E113F50F2C9C6FF600284ED2 /* MainMapView.swift */,
 				E113F5112C9F311A00284ED2 /* MainMapModalView.swift */,
+				E113F5132CA052E900284ED2 /* TripManageView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -376,6 +379,7 @@
 				4EEB3D1A2C96BE0800DE9332 /* ThemedTripView.swift in Sources */,
 				4EEB3D142C96B12400DE9332 /* TodaysTripView.swift in Sources */,
 				4EEB3D182C96BD7F00DE9332 /* TrendingTripView.swift in Sources */,
+				E113F5142CA052E900284ED2 /* TripManageView.swift in Sources */,
 				E191CB3D2C96F320001C97B5 /* Trip.swift in Sources */,
 				E28B135A2C8C3B14005F6236 /* ContentView.swift in Sources */,
 				4EEB3D0C2C96647400DE9332 /* FestivalView.swift in Sources */,
