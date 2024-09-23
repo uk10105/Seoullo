@@ -7,9 +7,10 @@
 
 import Foundation
 
-struct Place {
+struct Place: Identifiable {
+    let id = UUID()
     var name: String
-    var x: Double
-    var y: Double
+    var latitude: Double
+    var longitude: Double
     var memo: String?
 }
