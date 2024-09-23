@@ -15,11 +15,11 @@ struct CulturalView: View {
         span: MKCoordinateSpan(latitudeDelta: 0.05, longitudeDelta: 0.05)
     )
     
-    @State private var modalOffset: CGFloat = UIScreen.main.bounds.height * 0.5
-    @State private var lastDragPosition: CGFloat = 0.0
+    @State private var modalOffset: CGFloat = UIScreen.main.bounds.height * 0.7
+    @State private var lastDragPosition: CGFloat = 10.0
     
     var body: some View {
-        ZStack(alignment: .bottom) {
+        ZStack(alignment: .top) {
             // Map View with annotations
             Map(coordinateRegion: $region, annotationItems: commonDummy) { item in
                 MapAnnotation(coordinate: CLLocationCoordinate2D(
@@ -42,6 +42,9 @@ struct CulturalView: View {
             }
             .edgesIgnoringSafeArea(.all)
             
+            CategoryButton()
+                .padding(.vertical,20)
+            
             // Modal View with Search and Location Info
             CulturalModalView()
                 .offset(y: modalOffset)
@@ -57,7 +60,7 @@ struct CulturalView: View {
                         .onEnded { value in
                             self.lastDragPosition = 0
                             if self.modalOffset > UIScreen.main.bounds.height * 0.75 {
-                                self.modalOffset = UIScreen.main.bounds.height * 0.9 // Almost hidden
+                                self.modalOffset = UIScreen.main.bounds.height * 0.85 // Almost hidden
                             } else if self.modalOffset < UIScreen.main.bounds.height * 0.25 {
                                 self.modalOffset = 0 // Fully visible
                             } else {

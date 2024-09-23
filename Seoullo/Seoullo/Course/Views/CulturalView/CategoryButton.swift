@@ -44,6 +44,7 @@ struct CategoryButton: View {
                             .bold()
                             .background(
                                 RoundedRectangle(cornerRadius: 20)
+                                    .fill(Color.white)
                                     .stroke(.point.opacity(0.5), lineWidth: 2.5)
                             )
                             .cornerRadius(20)
