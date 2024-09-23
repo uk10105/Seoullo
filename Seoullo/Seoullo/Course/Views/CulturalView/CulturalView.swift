@@ -11,11 +11,11 @@ import MapKit
 struct CulturalView: View {
     @State private var searchText = ""
     @State private var region = MKCoordinateRegion(
-        center: CLLocationCoordinate2D(latitude: 37.5665, longitude: 126.9780), // Seoul coordinates
+        center: CLLocationCoordinate2D(latitude: 37.5665, longitude: 126.9780),
         span: MKCoordinateSpan(latitudeDelta: 0.05, longitudeDelta: 0.05)
     )
     
-    @State private var modalOffset: CGFloat = UIScreen.main.bounds.height * 0.7
+    @State private var modalOffset: CGFloat = UIScreen.main.bounds.height * 0.4
     @State private var lastDragPosition: CGFloat = 10.0
     
     var body: some View {
@@ -47,6 +47,7 @@ struct CulturalView: View {
             
             // Modal View with Search and Location Info
             CulturalModalView()
+                .edgesIgnoringSafeArea(.bottom)
                 .offset(y: modalOffset)
                 .gesture(
                     DragGesture()
@@ -60,11 +61,11 @@ struct CulturalView: View {
                         .onEnded { value in
                             self.lastDragPosition = 0
                             if self.modalOffset > UIScreen.main.bounds.height * 0.75 {
-                                self.modalOffset = UIScreen.main.bounds.height * 0.85 // Almost hidden
+                                self.modalOffset = UIScreen.main.bounds.height * 0.8 // Almost hidden
                             } else if self.modalOffset < UIScreen.main.bounds.height * 0.25 {
                                 self.modalOffset = 0 // Fully visible
                             } else {
-                                self.modalOffset = UIScreen.main.bounds.height * 0.5 // Half visible
+                                self.modalOffset = UIScreen.main.bounds.height * 0.4 // Half visible
                             }
                         }
                 )

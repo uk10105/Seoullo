@@ -15,7 +15,8 @@ struct CulturalModalView: View {
             RoundedRectangle(cornerRadius: 2.5)
                 .fill(Color.gray.opacity(0.3))
                 .frame(width: 80, height: 5)
-                .padding(.top, 10)
+                .padding(.top, 12)
+                .padding(.bottom, 20)
             
             // Location Info
             LocationInfoView()

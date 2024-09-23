@@ -23,14 +23,14 @@ struct CategoryButton: View {
                         .padding(.horizontal)
                         .padding(.vertical, 8)
                         .foregroundStyle(.white)
-                        .font(.system(size: 16))
+                        .font(.system(size: 12))
                         .bold()
                         .background(
                             RoundedRectangle(cornerRadius: 20)
                                 .foregroundStyle(.point)
                         )
                         .cornerRadius(20)
-                }
+                }.padding(.trailing, 7)
                 
                 ForEach(category, id: \.self) { item in
                     Button(action: {
@@ -40,7 +40,7 @@ struct CategoryButton: View {
                             .padding(.horizontal)
                             .padding(.vertical, 8)
                             .foregroundStyle(.blackText)
-                            .font(.system(size: 16))
+                            .font(.system(size: 12))
                             .bold()
                             .background(
                                 RoundedRectangle(cornerRadius: 20)
