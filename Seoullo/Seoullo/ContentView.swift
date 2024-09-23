@@ -19,7 +19,8 @@ struct ContentView: View {
 //        .padding()
 //        CourseSelectMainView(currentTab: .course)
 
-        TripManageView()
+//        TripManageView()
+        DetailMainView()
     }
 }
 
