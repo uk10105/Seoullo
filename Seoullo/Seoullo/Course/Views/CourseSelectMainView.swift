@@ -24,8 +24,8 @@ struct CourseSelectMainView: View {
             switch currentTab {
             case .course:
                 RecommendTripView()
-            case .hotPlace:
-                HotSpotView()
+//            case .hotPlace:
+//                HotSpotView()
             case .festival:
                 FestivalView()
             case .culture:
