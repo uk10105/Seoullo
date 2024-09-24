@@ -7,11 +7,25 @@
 
 import SwiftUI
 
+enum Category: Int, CaseIterable {
+    case food = 39
+    case culture = 14
+    case trip = 12
+    case shopping = 38
+    
+    var name: String {
+        switch self {
+        case .food: return "🍴음식"
+        case .culture: return "🎭문화"
+        case .trip: return "🏛️관광지"
+        case .shopping: return  "🛍️쇼핑"
+        }
+    }
+}
 
 struct CategoryButton: View {
-    @State private var showActionSheet = false
+    @StateObject var commonVM: CommonViewModel
     @State private var stateText: String = " 지역 "
-    let category = ["☕️카페", "🍴음식", "🎭문화", "🏛️관광지", "🛍️쇼핑"]
     
     var body: some View {
         ScrollView(.horizontal, showsIndicators: false) {
@@ -32,11 +46,15 @@ struct CategoryButton: View {
                         .cornerRadius(20)
                 }.padding(.trailing, 7)
                 
-                ForEach(category, id: \.self) { item in
+                ForEach(Category.allCases, id: \.self) { item in
                     Button(action: {
-                        // TODO: 버튼 액션 연결
+                        commonVM.contentType = item
+                        commonVM.getCommon(contentType: item) {
+                            
+                            print("---------currentItems: \(commonVM.currentItems)")
+                        }
                     }) {
-                        Text(item)
+                        Text(item.name)
                             .padding(.horizontal)
                             .padding(.vertical, 8)
                             .foregroundStyle(.blackText)
@@ -59,5 +77,5 @@ struct CategoryButton: View {
 }
 
 #Preview {
-    CategoryButton()
+    CategoryButton(commonVM: CommonViewModel())
 }

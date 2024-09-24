@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct CulturalModalView: View {
+    @EnvironmentObject var commonVM: CommonViewModel
     @State private var searchText = ""
     
     var body: some View {
@@ -20,6 +21,7 @@ struct CulturalModalView: View {
             
             // Location Info
             LocationInfoView()
+                .environmentObject(commonVM)
                 .padding()
             
             Spacer()
@@ -33,4 +35,5 @@ struct CulturalModalView: View {
 
 #Preview {
     CulturalModalView()
+        .environmentObject(CommonViewModel())
 }

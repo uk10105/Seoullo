@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct SeoulloApp: App {
+    @StateObject var commonVM  = CommonViewModel()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(commonVM)
         }
     }
 }

@@ -9,6 +9,7 @@ import SwiftUI
 import MapKit
 
 struct CulturalView: View {
+    @EnvironmentObject var commonVM: CommonViewModel
     @State private var searchText = ""
     @State private var region = MKCoordinateRegion(
         center: CLLocationCoordinate2D(latitude: 37.5665, longitude: 126.9780),
@@ -21,7 +22,7 @@ struct CulturalView: View {
     var body: some View {
         ZStack(alignment: .top) {
             // Map View with annotations
-            Map(coordinateRegion: $region, annotationItems: commonDummy) { item in
+            Map(coordinateRegion: $region, annotationItems: commonVM.currentItems) { item in
                 MapAnnotation(coordinate: CLLocationCoordinate2D(
                     latitude: Double(item.mapy) ?? 0.0,
                     longitude: Double(item.mapx) ?? 0.0
@@ -42,7 +43,7 @@ struct CulturalView: View {
             }
             .edgesIgnoringSafeArea(.all)
             
-            CategoryButton()
+            CategoryButton(commonVM: commonVM)
                 .padding(.vertical,20)
             
             // Modal View with Search and Location Info
