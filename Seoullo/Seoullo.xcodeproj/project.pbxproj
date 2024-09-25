@@ -23,6 +23,8 @@
 		E113F5102C9C6FF600284ED2 /* MainMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E113F50F2C9C6FF600284ED2 /* MainMapView.swift */; };
 		E113F5122C9F311A00284ED2 /* MainMapModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E113F5112C9F311A00284ED2 /* MainMapModalView.swift */; };
 		E113F5142CA052E900284ED2 /* TripManageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E113F5132CA052E900284ED2 /* TripManageView.swift */; };
+		E113F51D2CA3FEFD00284ED2 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E113F51C2CA3FEFD00284ED2 /* MainTabView.swift */; };
+		E113F51F2CA3FF3B00284ED2 /* MainTabType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E113F51E2CA3FF3B00284ED2 /* MainTabType.swift */; };
 		E191CB3A2C96F2D3001C97B5 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E191CB392C96F2D3001C97B5 /* Date+Extension.swift */; };
 		E191CB3D2C96F320001C97B5 /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = E191CB3C2C96F320001C97B5 /* Trip.swift */; };
 		E191CB3F2C96F33A001C97B5 /* DailyPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = E191CB3E2C96F33A001C97B5 /* DailyPlan.swift */; };
@@ -73,6 +75,8 @@
 		E113F50F2C9C6FF600284ED2 /* MainMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMapView.swift; sourceTree = "<group>"; };
 		E113F5112C9F311A00284ED2 /* MainMapModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMapModalView.swift; sourceTree = "<group>"; };
 		E113F5132CA052E900284ED2 /* TripManageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripManageView.swift; sourceTree = "<group>"; };
+		E113F51C2CA3FEFD00284ED2 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		E113F51E2CA3FF3B00284ED2 /* MainTabType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabType.swift; sourceTree = "<group>"; };
 		E191CB392C96F2D3001C97B5 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
 		E191CB3C2C96F320001C97B5 /* Trip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
 		E191CB3E2C96F33A001C97B5 /* DailyPlan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyPlan.swift; sourceTree = "<group>"; };
@@ -160,6 +164,15 @@
 			path = CulturalView;
 			sourceTree = "<group>";
 		};
+		E113F51B2CA3FEF000284ED2 /* MainTab */ = {
+			isa = PBXGroup;
+			children = (
+				E113F51C2CA3FEFD00284ED2 /* MainTabView.swift */,
+				E113F51E2CA3FF3B00284ED2 /* MainTabType.swift */,
+			);
+			path = MainTab;
+			sourceTree = "<group>";
+		};
 		E191CB382C96F2C6001C97B5 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -231,6 +244,7 @@
 		E28B13562C8C3B14005F6236 /* Seoullo */ = {
 			isa = PBXGroup;
 			children = (
+				E113F51B2CA3FEF000284ED2 /* MainTab */,
 				E28B13A12C9C56C1005F6236 /* Info.plist */,
 				E28B139D2C9C55AE005F6236 /* Config.swift */,
 				E191CB382C96F2C6001C97B5 /* Extensions */,
@@ -427,10 +441,12 @@
 				E113F5142CA052E900284ED2 /* TripManageView.swift in Sources */,
 				E191CB3D2C96F320001C97B5 /* Trip.swift in Sources */,
 				E28B135A2C8C3B14005F6236 /* ContentView.swift in Sources */,
+				E113F51F2CA3FF3B00284ED2 /* MainTabType.swift in Sources */,
 				4EEB3D0C2C96647400DE9332 /* FestivalView.swift in Sources */,
 				E2C565FB2CA03B2B008FE09E /* LocationInfoView.swift in Sources */,
 				E2C566082CA083B2008FE09E /* Detail2.swift in Sources */,
 				E113F5122C9F311A00284ED2 /* MainMapModalView.swift in Sources */,
+				E113F51D2CA3FEFD00284ED2 /* MainTabView.swift in Sources */,
 				E1BA3FB82C91CA1B00ED0ADA /* ScheduleSubButtonStyle.swift in Sources */,
 				E28B139E2C9C55AE005F6236 /* Config.swift in Sources */,
 				E28B137B2C9327E2005F6236 /* CourseSelectMainView.swift in Sources */,
