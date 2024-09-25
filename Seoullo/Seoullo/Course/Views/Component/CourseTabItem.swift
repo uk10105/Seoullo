@@ -19,12 +19,14 @@ struct CourseTabItem: View {
                 Text(tab.rawValue)
                     .foregroundStyle(currentTab == tab ? .blackText : .grayApp)
                     .font(.headline)
+                    .frame(width: 100)
                     .bold()
                 Rectangle()
-                    .frame(width: 80, height: 5)
+                    .frame(width: 100, height: 5)
                     .foregroundStyle(currentTab == tab ? .black : .clear)
             }
             .animation(.spring(), value: currentTab)
+            .padding()
         })
         .buttonStyle(.plain)
     }

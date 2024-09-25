@@ -53,6 +53,7 @@
 		E2C566062CA07E5F008FE09E /* Detail1.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C566052CA07E5F008FE09E /* Detail1.swift */; };
 		E2C566082CA083B2008FE09E /* Detail2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C566072CA083B2008FE09E /* Detail2.swift */; };
 		E2C5660A2CA083F0008FE09E /* Detail3.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C566092CA083F0008FE09E /* Detail3.swift */; };
+		E2E485EF2CA1D25600821313 /* CommonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E485EE2CA1D25600821313 /* CommonViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -103,6 +104,7 @@
 		E2C566052CA07E5F008FE09E /* Detail1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Detail1.swift; path = Seoullo/Course/Views/DetailView/Detail1.swift; sourceTree = SOURCE_ROOT; };
 		E2C566072CA083B2008FE09E /* Detail2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Detail2.swift; path = Seoullo/Course/Views/DetailView/Detail2.swift; sourceTree = SOURCE_ROOT; };
 		E2C566092CA083F0008FE09E /* Detail3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Detail3.swift; path = Seoullo/Course/Views/DetailView/Detail3.swift; sourceTree = SOURCE_ROOT; };
+		E2E485EE2CA1D25600821313 /* CommonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CommonViewModel.swift; path = Seoullo/Course/Views/DetailView/CommonViewModel.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -280,6 +282,7 @@
 			children = (
 				4E22B2F42C9FFCF700B094F6 /* RouteDetailViewModel.swift */,
 				4E22B2F62CA195C400B094F6 /* RouteListViewModel.swift */,
+				E2E485EE2CA1D25600821313 /* CommonViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -438,6 +441,7 @@
 				E28B137F2C932FC3005F6236 /* CourseTabItem.swift in Sources */,
 				E1BA3FBC2C91D6DB00ED0ADA /* SchedulePlaceDetailView.swift in Sources */,
 				E191CB3F2C96F33A001C97B5 /* DailyPlan.swift in Sources */,
+				E2E485EF2CA1D25600821313 /* CommonViewModel.swift in Sources */,
 				E191CB412C96F34A001C97B5 /* Place.swift in Sources */,
 				E28B13582C8C3B14005F6236 /* SeoulloApp.swift in Sources */,
 				4EEB3D1C2C96C06200DE9332 /* RouteDetailView.swift in Sources */,
@@ -590,6 +594,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Seoullo/Preview Content\"";
+				DEVELOPMENT_TEAM = 8P55S9LM4B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Seoullo/Info.plist;
@@ -620,6 +625,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Seoullo/Preview Content\"";
+				DEVELOPMENT_TEAM = 8P55S9LM4B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Seoullo/Info.plist;

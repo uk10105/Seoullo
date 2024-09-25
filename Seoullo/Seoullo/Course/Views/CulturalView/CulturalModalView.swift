@@ -8,15 +8,20 @@
 import SwiftUI
 
 struct CulturalModalView: View {
+    @EnvironmentObject var commonVM: CommonViewModel
     @State private var searchText = ""
     
     var body: some View {
         VStack {
-            CategoryButton()
-                .padding(.vertical,20)
+            RoundedRectangle(cornerRadius: 2.5)
+                .fill(Color.gray.opacity(0.3))
+                .frame(width: 80, height: 5)
+                .padding(.top, 12)
+                .padding(.bottom, 20)
             
             // Location Info
             LocationInfoView()
+                .environmentObject(commonVM)
                 .padding()
             
             Spacer()
@@ -30,4 +35,5 @@ struct CulturalModalView: View {
 
 #Preview {
     CulturalModalView()
+        .environmentObject(CommonViewModel())
 }

@@ -13,7 +13,7 @@ struct CommonItem: Codable, Identifiable {
     let addr: String
     let mapx: String
     let mapy: String
-    let firstImage: String
+    let firstImage: String?
     
     enum CodingKeys: String, CodingKey {
         case id = "contentid"
