@@ -8,16 +8,17 @@
 import SwiftUI
 import Kingfisher
 
-struct TripDetailView: View {
+struct RouteDetailView: View {
     @Environment(\.presentationMode) var presentationMode
     let routeSummary: RouteSummary
     var route: Route = Route(item: [])
+    
+    @StateObject var routeDetailViewModel = RouteDetailViewModel()
     
     @GestureState private var dragOffset = CGSize.zero
     
     var body: some View {
         ZStack {
-            // TODO: routeSummary.title, routeSummary.overview, routeDetail 등 추가
             VStack {
                 KFImage(URL(string: routeSummary.image1 ?? ""))
                     .placeholder {
@@ -54,9 +55,7 @@ struct TripDetailView: View {
                         }
                         .padding(.bottom, 20)
                         
-                        // TODO: /detailInfo1 API 연동
-                        
-                        ForEach(route.item, id: \.id) { item in
+                        ForEach(routeDetailViewModel.route, id: \.id) { item in
                             VStack {
                                 HStack {
                                     Image(systemName: "flag.fill")
@@ -94,6 +93,10 @@ struct TripDetailView: View {
                 
                 Spacer()
             }
+            .onAppear(perform: {
+                routeDetailViewModel.contentId = routeSummary.id
+                routeDetailViewModel.getRoute()
+            })
             
             // 드롭다운 아이콘
             VStack {
@@ -121,7 +124,7 @@ struct TripDetailView: View {
 }
 
 #Preview {
-    TripDetailView(routeSummary:
+    RouteDetailView(routeSummary:
                     RouteSummary(id: "1889328",
                                  title: "서울의 랜드마크를 만나다",
                                  image1: "http://tong.visitkorea.or.kr/cms/resource/15/1356615_image2_1.jpg",

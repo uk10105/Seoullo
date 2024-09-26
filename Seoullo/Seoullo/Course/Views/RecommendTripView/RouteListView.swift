@@ -11,29 +11,12 @@ import Kingfisher
 struct RouteListView: View {
     @State private var selectedRouteSummary: RouteSummary?
     let code: RouteCode
-    // TODO: code를 사용해서 routeSummaries를 불러오도록 수정
-    let routeSummaries: [RouteSummary] = [
-        RouteSummary(id: "1952978",
-                     title: "궁의 북쪽 자하문 돌아보기",
-                     image1: "http://tong.visitkorea.or.kr/cms/resource/42/1568042_image2_1.jpg",
-                     image2: "http://tong.visitkorea.or.kr/cms/resource/42/1568042_image3_1.jpg",
-                     overview: nil),
-        RouteSummary(id: "1921815",
-                     title: "남산을 중심으로 문화놀이",
-                     image1: "http://tong.visitkorea.or.kr/cms/resource/73/1569173_image2_1.jpg",
-                     image2: "http://tong.visitkorea.or.kr/cms/resource/73/1569173_image3_1.jpg",
-                     overview: nil),
-        RouteSummary(id: "1977713",
-                     title: "서울 양천구 서서울호수공원 코스",
-                     image1: "http://tong.visitkorea.or.kr/cms/resource/68/1967068_image2_1.jpg",
-                     image2: "http://tong.visitkorea.or.kr/cms/resource/68/1967068_image3_1.jpg",
-                     overview: nil)
-    ]
+    @StateObject var routeListViewModel = RouteListViewModel()
     
     var body: some View {
         ScrollView(.vertical, showsIndicators: false) {
             VStack {
-                ForEach(routeSummaries, id: \.id) { summary in
+                ForEach(routeListViewModel.routeSummaries, id: \.id) { summary in
                     Button(action: {
                         selectedRouteSummary = summary
                     }) {
@@ -59,10 +42,10 @@ struct RouteListView: View {
                                 .clipShape(RoundedRectangle(cornerRadius: 10))
                             
                             VStack(alignment: .leading) {
-                                HStack {
-                                    Spacer()
-                                    Image(systemName: "heart")
-                                }
+//                                HStack {
+//                                    Spacer()
+//                                    Image(systemName: "heart")
+//                                }
                                 Spacer()
                                 Text(summary.title)
                                     .font(.title3)
@@ -77,10 +60,14 @@ struct RouteListView: View {
                 }
             }
             .padding(25)
+            .onAppear(perform: {
+                routeListViewModel.code = code.code
+                routeListViewModel.getRouteSummaries()
+            })
         }
         .navigationTitle(code.name)
         .fullScreenCover(item: $selectedRouteSummary) { summary in
-            TripDetailView(routeSummary: summary)
+            RouteDetailView(routeSummary: summary)
         }
     }
 }

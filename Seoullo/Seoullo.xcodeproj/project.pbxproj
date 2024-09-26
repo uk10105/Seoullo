@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E22B2F52C9FFCF700B094F6 /* RouteDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E22B2F42C9FFCF700B094F6 /* RouteDetailViewModel.swift */; };
+		4E22B2F72CA195C400B094F6 /* RouteListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E22B2F62CA195C400B094F6 /* RouteListViewModel.swift */; };
 		4E85BBC62C9EE3B900008F66 /* RouteListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E85BBC52C9EE3B900008F66 /* RouteListView.swift */; };
 		4EEB3D0A2C96645D00DE9332 /* RecommendTripView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEB3D092C96645D00DE9332 /* RecommendTripView.swift */; };
 		4EEB3D0C2C96647400DE9332 /* FestivalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEB3D0B2C96647300DE9332 /* FestivalView.swift */; };
@@ -15,11 +17,17 @@
 		4EEB3D142C96B12400DE9332 /* TodaysTripView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEB3D132C96B12400DE9332 /* TodaysTripView.swift */; };
 		4EEB3D182C96BD7F00DE9332 /* TrendingTripView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEB3D172C96BD7F00DE9332 /* TrendingTripView.swift */; };
 		4EEB3D1A2C96BE0800DE9332 /* ThemedTripView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEB3D192C96BE0800DE9332 /* ThemedTripView.swift */; };
-		4EEB3D1C2C96C06200DE9332 /* TripDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEB3D1B2C96C06200DE9332 /* TripDetailView.swift */; };
+		4EEB3D1C2C96C06200DE9332 /* RouteDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEB3D1B2C96C06200DE9332 /* RouteDetailView.swift */; };
 		4EEB3D1E2C9EB65600DE9332 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEB3D1D2C9EB65600DE9332 /* Route.swift */; };
 		4EEB3D202C9EBC6800DE9332 /* RouteSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEB3D1F2C9EBC6800DE9332 /* RouteSummary.swift */; };
 		E113F5102C9C6FF600284ED2 /* MainMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E113F50F2C9C6FF600284ED2 /* MainMapView.swift */; };
 		E113F5122C9F311A00284ED2 /* MainMapModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E113F5112C9F311A00284ED2 /* MainMapModalView.swift */; };
+<<<<<<< HEAD
+=======
+		E113F5142CA052E900284ED2 /* TripManageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E113F5132CA052E900284ED2 /* TripManageView.swift */; };
+		E113F51D2CA3FEFD00284ED2 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E113F51C2CA3FEFD00284ED2 /* MainTabView.swift */; };
+		E113F51F2CA3FF3B00284ED2 /* MainTabType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E113F51E2CA3FF3B00284ED2 /* MainTabType.swift */; };
+>>>>>>> 8267ee4ca449c345901e1d070219f962262c0e54
 		E191CB3A2C96F2D3001C97B5 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E191CB392C96F2D3001C97B5 /* Date+Extension.swift */; };
 		E191CB3D2C96F320001C97B5 /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = E191CB3C2C96F320001C97B5 /* Trip.swift */; };
 		E191CB3F2C96F33A001C97B5 /* DailyPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = E191CB3E2C96F33A001C97B5 /* DailyPlan.swift */; };
@@ -30,6 +38,7 @@
 		E1BA3FB82C91CA1B00ED0ADA /* ScheduleSubButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BA3FB72C91CA1B00ED0ADA /* ScheduleSubButtonStyle.swift */; };
 		E1BA3FBA2C91CA2800ED0ADA /* ScheduleMainButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BA3FB92C91CA2800ED0ADA /* ScheduleMainButtonStyle.swift */; };
 		E1BA3FBC2C91D6DB00ED0ADA /* SchedulePlaceDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BA3FBB2C91D6DB00ED0ADA /* SchedulePlaceDetailView.swift */; };
+		E2595AE02CA08BBB0095D618 /* InfoIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2595ADF2CA08BBB0095D618 /* InfoIcon.swift */; };
 		E28B13582C8C3B14005F6236 /* SeoulloApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28B13572C8C3B14005F6236 /* SeoulloApp.swift */; };
 		E28B135A2C8C3B14005F6236 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28B13592C8C3B14005F6236 /* ContentView.swift */; };
 		E28B135C2C8C3B15005F6236 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E28B135B2C8C3B15005F6236 /* Assets.xcassets */; };
@@ -41,9 +50,20 @@
 		E28B137D2C932F26005F6236 /* CourseTabOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28B137C2C932F26005F6236 /* CourseTabOptions.swift */; };
 		E28B137F2C932FC3005F6236 /* CourseTabItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28B137E2C932FC3005F6236 /* CourseTabItem.swift */; };
 		E28B139E2C9C55AE005F6236 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28B139D2C9C55AE005F6236 /* Config.swift */; };
+		E2C565FB2CA03B2B008FE09E /* LocationInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C565FA2CA03B2B008FE09E /* LocationInfoView.swift */; };
+		E2C565FD2CA03B47008FE09E /* CategoryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C565FC2CA03B47008FE09E /* CategoryButton.swift */; };
+		E2C565FF2CA03BA4008FE09E /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C565FE2CA03BA4008FE09E /* Common.swift */; };
+		E2C566012CA0532F008FE09E /* CulturalModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C566002CA0532F008FE09E /* CulturalModalView.swift */; };
+		E2C566042CA07921008FE09E /* DetailMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C566032CA07921008FE09E /* DetailMainView.swift */; };
+		E2C566062CA07E5F008FE09E /* Detail1.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C566052CA07E5F008FE09E /* Detail1.swift */; };
+		E2C566082CA083B2008FE09E /* Detail2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C566072CA083B2008FE09E /* Detail2.swift */; };
+		E2C5660A2CA083F0008FE09E /* Detail3.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C566092CA083F0008FE09E /* Detail3.swift */; };
+		E2E485EF2CA1D25600821313 /* CommonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E485EE2CA1D25600821313 /* CommonViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4E22B2F42C9FFCF700B094F6 /* RouteDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RouteDetailViewModel.swift; path = Seoullo/Course/Views/RecommendTripView/RouteDetailViewModel.swift; sourceTree = SOURCE_ROOT; };
+		4E22B2F62CA195C400B094F6 /* RouteListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RouteListViewModel.swift; path = Seoullo/Course/Views/RecommendTripView/RouteListViewModel.swift; sourceTree = SOURCE_ROOT; };
 		4E85BBC52C9EE3B900008F66 /* RouteListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteListView.swift; sourceTree = "<group>"; };
 		4EEB3D092C96645D00DE9332 /* RecommendTripView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendTripView.swift; sourceTree = "<group>"; };
 		4EEB3D0B2C96647300DE9332 /* FestivalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FestivalView.swift; sourceTree = "<group>"; };
@@ -52,11 +72,22 @@
 		4EEB3D132C96B12400DE9332 /* TodaysTripView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodaysTripView.swift; sourceTree = "<group>"; };
 		4EEB3D172C96BD7F00DE9332 /* TrendingTripView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingTripView.swift; sourceTree = "<group>"; };
 		4EEB3D192C96BE0800DE9332 /* ThemedTripView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemedTripView.swift; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		4EEB3D1B2C96C06200DE9332 /* TripDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDetailView.swift; sourceTree = "<group>"; };
 		4EEB3D1D2C9EB65600DE9332 /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Route.swift; path = Seoullo/Course/Models/Route.swift; sourceTree = SOURCE_ROOT; };
 		4EEB3D1F2C9EBC6800DE9332 /* RouteSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RouteSummary.swift; path = Seoullo/Course/Models/RouteSummary.swift; sourceTree = SOURCE_ROOT; };
 		E113F50F2C9C6FF600284ED2 /* MainMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMapView.swift; sourceTree = "<group>"; };
 		E113F5112C9F311A00284ED2 /* MainMapModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMapModalView.swift; sourceTree = "<group>"; };
+=======
+		4EEB3D1B2C96C06200DE9332 /* RouteDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteDetailView.swift; sourceTree = "<group>"; };
+		4EEB3D1D2C9EB65600DE9332 /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Route.swift; path = Seoullo/Course/Views/RecommendTripView/Route.swift; sourceTree = SOURCE_ROOT; };
+		4EEB3D1F2C9EBC6800DE9332 /* RouteSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RouteSummary.swift; path = Seoullo/Course/Views/RecommendTripView/RouteSummary.swift; sourceTree = SOURCE_ROOT; };
+		E113F50F2C9C6FF600284ED2 /* MainMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMapView.swift; sourceTree = "<group>"; };
+		E113F5112C9F311A00284ED2 /* MainMapModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMapModalView.swift; sourceTree = "<group>"; };
+		E113F5132CA052E900284ED2 /* TripManageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripManageView.swift; sourceTree = "<group>"; };
+		E113F51C2CA3FEFD00284ED2 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		E113F51E2CA3FF3B00284ED2 /* MainTabType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabType.swift; sourceTree = "<group>"; };
+>>>>>>> 8267ee4ca449c345901e1d070219f962262c0e54
 		E191CB392C96F2D3001C97B5 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
 		E191CB3C2C96F320001C97B5 /* Trip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
 		E191CB3E2C96F33A001C97B5 /* DailyPlan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyPlan.swift; sourceTree = "<group>"; };
@@ -67,6 +98,7 @@
 		E1BA3FB72C91CA1B00ED0ADA /* ScheduleSubButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleSubButtonStyle.swift; sourceTree = "<group>"; };
 		E1BA3FB92C91CA2800ED0ADA /* ScheduleMainButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleMainButtonStyle.swift; sourceTree = "<group>"; };
 		E1BA3FBB2C91D6DB00ED0ADA /* SchedulePlaceDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchedulePlaceDetailView.swift; sourceTree = "<group>"; };
+		E2595ADF2CA08BBB0095D618 /* InfoIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoIcon.swift; sourceTree = "<group>"; };
 		E28B13542C8C3B14005F6236 /* Seoullo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Seoullo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E28B13572C8C3B14005F6236 /* SeoulloApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeoulloApp.swift; sourceTree = "<group>"; };
 		E28B13592C8C3B14005F6236 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -77,8 +109,17 @@
 		E28B137C2C932F26005F6236 /* CourseTabOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseTabOptions.swift; sourceTree = "<group>"; };
 		E28B137E2C932FC3005F6236 /* CourseTabItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseTabItem.swift; sourceTree = "<group>"; };
 		E28B139D2C9C55AE005F6236 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
-		E28B13A02C9C55FA005F6236 /* Secrets.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Secrets.xcconfig; sourceTree = "<group>"; };
 		E28B13A12C9C56C1005F6236 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E2C565F92CA039AC008FE09E /* Secrets.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Secrets.xcconfig; sourceTree = "<group>"; };
+		E2C565FA2CA03B2B008FE09E /* LocationInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationInfoView.swift; sourceTree = "<group>"; };
+		E2C565FC2CA03B47008FE09E /* CategoryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryButton.swift; sourceTree = "<group>"; };
+		E2C565FE2CA03BA4008FE09E /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Common.swift; path = Seoullo/Course/Views/CulturalView/Common.swift; sourceTree = SOURCE_ROOT; };
+		E2C566002CA0532F008FE09E /* CulturalModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CulturalModalView.swift; sourceTree = "<group>"; };
+		E2C566032CA07921008FE09E /* DetailMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMainView.swift; sourceTree = "<group>"; };
+		E2C566052CA07E5F008FE09E /* Detail1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Detail1.swift; path = Seoullo/Course/Views/DetailView/Detail1.swift; sourceTree = SOURCE_ROOT; };
+		E2C566072CA083B2008FE09E /* Detail2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Detail2.swift; path = Seoullo/Course/Views/DetailView/Detail2.swift; sourceTree = SOURCE_ROOT; };
+		E2C566092CA083F0008FE09E /* Detail3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Detail3.swift; path = Seoullo/Course/Views/DetailView/Detail3.swift; sourceTree = SOURCE_ROOT; };
+		E2E485EE2CA1D25600821313 /* CommonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CommonViewModel.swift; path = Seoullo/Course/Views/DetailView/CommonViewModel.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +141,7 @@
 				4EEB3D092C96645D00DE9332 /* RecommendTripView.swift */,
 				4EEB3D132C96B12400DE9332 /* TodaysTripView.swift */,
 				4EEB3D172C96BD7F00DE9332 /* TrendingTripView.swift */,
-				4EEB3D1B2C96C06200DE9332 /* TripDetailView.swift */,
+				4EEB3D1B2C96C06200DE9332 /* RouteDetailView.swift */,
 				4EEB3D192C96BE0800DE9332 /* ThemedTripView.swift */,
 				4E85BBC52C9EE3B900008F66 /* RouteListView.swift */,
 			);
@@ -127,8 +168,20 @@
 			isa = PBXGroup;
 			children = (
 				4EEB3D0F2C96661E00DE9332 /* CulturalView.swift */,
+				E2C565FA2CA03B2B008FE09E /* LocationInfoView.swift */,
+				E2C565FC2CA03B47008FE09E /* CategoryButton.swift */,
+				E2C566002CA0532F008FE09E /* CulturalModalView.swift */,
 			);
 			path = CulturalView;
+			sourceTree = "<group>";
+		};
+		E113F51B2CA3FEF000284ED2 /* MainTab */ = {
+			isa = PBXGroup;
+			children = (
+				E113F51C2CA3FEFD00284ED2 /* MainTabView.swift */,
+				E113F51E2CA3FF3B00284ED2 /* MainTabType.swift */,
+			);
+			path = MainTab;
 			sourceTree = "<group>";
 		};
 		E191CB382C96F2C6001C97B5 /* Extensions */ = {
@@ -176,6 +229,7 @@
 				E191CB442C972782001C97B5 /* CalendarView.swift */,
 				E113F50F2C9C6FF600284ED2 /* MainMapView.swift */,
 				E113F5112C9F311A00284ED2 /* MainMapModalView.swift */,
+				E113F5132CA052E900284ED2 /* TripManageView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -183,7 +237,7 @@
 		E28B134B2C8C3B14005F6236 = {
 			isa = PBXGroup;
 			children = (
-				E28B13A02C9C55FA005F6236 /* Secrets.xcconfig */,
+				E2C565F92CA039AC008FE09E /* Secrets.xcconfig */,
 				E28B13662C8C3FD0005F6236 /* .swiftlint.yml */,
 				E28B13562C8C3B14005F6236 /* Seoullo */,
 				E28B13552C8C3B14005F6236 /* Products */,
@@ -201,6 +255,7 @@
 		E28B13562C8C3B14005F6236 /* Seoullo */ = {
 			isa = PBXGroup;
 			children = (
+				E113F51B2CA3FEF000284ED2 /* MainTab */,
 				E28B13A12C9C56C1005F6236 /* Info.plist */,
 				E28B139D2C9C55AE005F6236 /* Config.swift */,
 				E191CB382C96F2C6001C97B5 /* Extensions */,
@@ -236,6 +291,7 @@
 		E28B13722C931910005F6236 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				E2C566022CA078FA008FE09E /* DetailView */,
 				E28B13792C9323BF005F6236 /* Component */,
 				4EEB3D072C96640100DE9332 /* RecommendTripView */,
 				4EEB3D0D2C9665F300DE9332 /* HotSpotView */,
@@ -249,8 +305,14 @@
 		E28B13792C9323BF005F6236 /* Component */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				E28B137C2C932F26005F6236 /* CourseTabOptions.swift */,
 				E28B137E2C932FC3005F6236 /* CourseTabItem.swift */,
+=======
+				4E22B2F42C9FFCF700B094F6 /* RouteDetailViewModel.swift */,
+				4E22B2F62CA195C400B094F6 /* RouteListViewModel.swift */,
+				E2E485EE2CA1D25600821313 /* CommonViewModel.swift */,
+>>>>>>> 8267ee4ca449c345901e1d070219f962262c0e54
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -260,6 +322,10 @@
 			children = (
 				4EEB3D1D2C9EB65600DE9332 /* Route.swift */,
 				4EEB3D1F2C9EBC6800DE9332 /* RouteSummary.swift */,
+				E2C565FE2CA03BA4008FE09E /* Common.swift */,
+				E2C566052CA07E5F008FE09E /* Detail1.swift */,
+				E2C566072CA083B2008FE09E /* Detail2.swift */,
+				E2C566092CA083F0008FE09E /* Detail3.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -269,6 +335,15 @@
 			children = (
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		E2C566022CA078FA008FE09E /* DetailView */ = {
+			isa = PBXGroup;
+			children = (
+				E2C566032CA07921008FE09E /* DetailMainView.swift */,
+				E2595ADF2CA08BBB0095D618 /* InfoIcon.swift */,
+			);
+			path = DetailView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -374,31 +449,46 @@
 			buildActionMask = 2147483647;
 			files = (
 				4EEB3D1A2C96BE0800DE9332 /* ThemedTripView.swift in Sources */,
+				4E22B2F52C9FFCF700B094F6 /* RouteDetailViewModel.swift in Sources */,
 				4EEB3D142C96B12400DE9332 /* TodaysTripView.swift in Sources */,
 				4EEB3D182C96BD7F00DE9332 /* TrendingTripView.swift in Sources */,
+				E113F5142CA052E900284ED2 /* TripManageView.swift in Sources */,
 				E191CB3D2C96F320001C97B5 /* Trip.swift in Sources */,
 				E28B135A2C8C3B14005F6236 /* ContentView.swift in Sources */,
+				E113F51F2CA3FF3B00284ED2 /* MainTabType.swift in Sources */,
 				4EEB3D0C2C96647400DE9332 /* FestivalView.swift in Sources */,
+				E2C565FB2CA03B2B008FE09E /* LocationInfoView.swift in Sources */,
+				E2C566082CA083B2008FE09E /* Detail2.swift in Sources */,
 				E113F5122C9F311A00284ED2 /* MainMapModalView.swift in Sources */,
+				E113F51D2CA3FEFD00284ED2 /* MainTabView.swift in Sources */,
 				E1BA3FB82C91CA1B00ED0ADA /* ScheduleSubButtonStyle.swift in Sources */,
 				E28B139E2C9C55AE005F6236 /* Config.swift in Sources */,
 				E28B137B2C9327E2005F6236 /* CourseSelectMainView.swift in Sources */,
+				E2C566062CA07E5F008FE09E /* Detail1.swift in Sources */,
+				E2C566042CA07921008FE09E /* DetailMainView.swift in Sources */,
+				E2C565FF2CA03BA4008FE09E /* Common.swift in Sources */,
 				4EEB3D102C96661E00DE9332 /* CulturalView.swift in Sources */,
 				E28B137F2C932FC3005F6236 /* CourseTabItem.swift in Sources */,
 				E1BA3FBC2C91D6DB00ED0ADA /* SchedulePlaceDetailView.swift in Sources */,
 				E191CB3F2C96F33A001C97B5 /* DailyPlan.swift in Sources */,
+				E2E485EF2CA1D25600821313 /* CommonViewModel.swift in Sources */,
 				E191CB412C96F34A001C97B5 /* Place.swift in Sources */,
 				E28B13582C8C3B14005F6236 /* SeoulloApp.swift in Sources */,
-				4EEB3D1C2C96C06200DE9332 /* TripDetailView.swift in Sources */,
+				4EEB3D1C2C96C06200DE9332 /* RouteDetailView.swift in Sources */,
 				4EEB3D0A2C96645D00DE9332 /* RecommendTripView.swift in Sources */,
+				E2595AE02CA08BBB0095D618 /* InfoIcon.swift in Sources */,
 				E191CB452C972782001C97B5 /* CalendarView.swift in Sources */,
 				E191CB3A2C96F2D3001C97B5 /* Date+Extension.swift in Sources */,
+				E2C565FD2CA03B47008FE09E /* CategoryButton.swift in Sources */,
 				E1BA3FBA2C91CA2800ED0ADA /* ScheduleMainButtonStyle.swift in Sources */,
 				4EEB3D202C9EBC6800DE9332 /* RouteSummary.swift in Sources */,
 				4EEB3D122C96662D00DE9332 /* HotSpotView.swift in Sources */,
 				4E85BBC62C9EE3B900008F66 /* RouteListView.swift in Sources */,
+				E2C5660A2CA083F0008FE09E /* Detail3.swift in Sources */,
 				4EEB3D1E2C9EB65600DE9332 /* Route.swift in Sources */,
 				E28B137D2C932F26005F6236 /* CourseTabOptions.swift in Sources */,
+				4E22B2F72CA195C400B094F6 /* RouteListViewModel.swift in Sources */,
+				E2C566012CA0532F008FE09E /* CulturalModalView.swift in Sources */,
 				E113F5102C9C6FF600284ED2 /* MainMapView.swift in Sources */,
 				E1BA3FB62C91C3E400ED0ADA /* SearchBar.swift in Sources */,
 			);
@@ -409,7 +499,6 @@
 /* Begin XCBuildConfiguration section */
 		E28B13602C8C3B15005F6236 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E28B13A02C9C55FA005F6236 /* Secrets.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -473,7 +562,6 @@
 		};
 		E28B13612C8C3B15005F6236 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E28B13A02C9C55FA005F6236 /* Secrets.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -530,13 +618,13 @@
 		};
 		E28B13632C8C3B15005F6236 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E28B13A02C9C55FA005F6236 /* Secrets.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Seoullo/Preview Content\"";
+				DEVELOPMENT_TEAM = 8P55S9LM4B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Seoullo/Info.plist;
@@ -561,13 +649,13 @@
 		};
 		E28B13642C8C3B15005F6236 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E28B13A02C9C55FA005F6236 /* Secrets.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Seoullo/Preview Content\"";
+				DEVELOPMENT_TEAM = 8P55S9LM4B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Seoullo/Info.plist;

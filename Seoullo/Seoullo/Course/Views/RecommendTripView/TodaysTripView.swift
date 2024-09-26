@@ -46,6 +46,7 @@ extension Int: Identifiable {
  "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/81/1075281_image3_1.jpg",
  "title": "경복궁 북쪽마을 북촌 즐기기"
  */
+
 struct TodaysTripView: View {
     @State private var selectedRouteSummary: RouteSummary?
     // TODO: contendIds 리스트와 /detailCommon1 API 연동
@@ -86,9 +87,9 @@ struct TodaysTripView: View {
         VStack {
             HStack {
                 VStack(alignment: .leading) {
-                    Text("대표 여행 코스")
+                    Text("추천 여행 코스")
                         .font(.title)
-                    Text("오늘의 추천 코스를 여행하세요.")
+                    Text("서울의 랜드마크를 방문하세요.")
                         .font(.footnote)
                         .foregroundStyle(.secondary)
                 }
@@ -122,10 +123,10 @@ struct TodaysTripView: View {
                                     .clipShape(RoundedRectangle(cornerRadius: 10))
                                 
                                 VStack(alignment: .leading) {
-                                    HStack {
-                                        Spacer()
-                                        Image(systemName: "heart")
-                                    }
+//                                    HStack {
+//                                        Spacer()
+//                                        Image(systemName: "heart")
+//                                    }
                                     Spacer()
                                     Text(summary.title)
                                         .font(.headline)
@@ -143,8 +144,7 @@ struct TodaysTripView: View {
                 }
             }
             .fullScreenCover(item: $selectedRouteSummary) { summary in
-                // TODO: 반복정보조회 API 연동
-                TripDetailView(routeSummary: summary)
+                RouteDetailView(routeSummary: summary)
             }
         }
     }
@@ -199,7 +199,7 @@ struct TodaysTripView2: View {
                 }
             }
             .fullScreenCover(item: $selectedTripIndex) { index in
-                TripDetailView(routeSummary:
+                RouteDetailView(routeSummary:
                                 RouteSummary(id: "1977713",
                                              title: "서울 양천구 서서울호수공원 코스",
                                              image1: "http://tong.visitkorea.or.kr/cms/resource/68/1967068_image2_1.jpg",
