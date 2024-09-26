@@ -23,6 +23,7 @@
 		E113F5102C9C6FF600284ED2 /* MainMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E113F50F2C9C6FF600284ED2 /* MainMapView.swift */; };
 		E113F5122C9F311A00284ED2 /* MainMapModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E113F5112C9F311A00284ED2 /* MainMapModalView.swift */; };
 		E113F5142CA052E900284ED2 /* TripManageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E113F5132CA052E900284ED2 /* TripManageView.swift */; };
+		E113F5212CA4080500284ED2 /* ScheduleDailyDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E113F5202CA4080500284ED2 /* ScheduleDailyDetailView.swift */; };
 		E191CB3A2C96F2D3001C97B5 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E191CB392C96F2D3001C97B5 /* Date+Extension.swift */; };
 		E191CB3D2C96F320001C97B5 /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = E191CB3C2C96F320001C97B5 /* Trip.swift */; };
 		E191CB3F2C96F33A001C97B5 /* DailyPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = E191CB3E2C96F33A001C97B5 /* DailyPlan.swift */; };
@@ -73,6 +74,7 @@
 		E113F50F2C9C6FF600284ED2 /* MainMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMapView.swift; sourceTree = "<group>"; };
 		E113F5112C9F311A00284ED2 /* MainMapModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMapModalView.swift; sourceTree = "<group>"; };
 		E113F5132CA052E900284ED2 /* TripManageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripManageView.swift; sourceTree = "<group>"; };
+		E113F5202CA4080500284ED2 /* ScheduleDailyDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleDailyDetailView.swift; sourceTree = "<group>"; };
 		E191CB392C96F2D3001C97B5 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
 		E191CB3C2C96F320001C97B5 /* Trip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
 		E191CB3E2C96F33A001C97B5 /* DailyPlan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyPlan.swift; sourceTree = "<group>"; };
@@ -206,6 +208,7 @@
 				E113F50F2C9C6FF600284ED2 /* MainMapView.swift */,
 				E113F5112C9F311A00284ED2 /* MainMapModalView.swift */,
 				E113F5132CA052E900284ED2 /* TripManageView.swift */,
+				E113F5202CA4080500284ED2 /* ScheduleDailyDetailView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -426,6 +429,7 @@
 				4EEB3D182C96BD7F00DE9332 /* TrendingTripView.swift in Sources */,
 				E113F5142CA052E900284ED2 /* TripManageView.swift in Sources */,
 				E191CB3D2C96F320001C97B5 /* Trip.swift in Sources */,
+				E113F5212CA4080500284ED2 /* ScheduleDailyDetailView.swift in Sources */,
 				E28B135A2C8C3B14005F6236 /* ContentView.swift in Sources */,
 				4EEB3D0C2C96647400DE9332 /* FestivalView.swift in Sources */,
 				E2C565FB2CA03B2B008FE09E /* LocationInfoView.swift in Sources */,
