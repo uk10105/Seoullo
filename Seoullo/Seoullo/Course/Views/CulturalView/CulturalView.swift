@@ -79,4 +79,5 @@ struct CulturalView: View {
 
 #Preview {
     CulturalView()
+        .environmentObject(CommonViewModel())
 }
