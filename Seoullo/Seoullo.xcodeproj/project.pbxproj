@@ -70,8 +70,8 @@
 		4EEB3D172C96BD7F00DE9332 /* TrendingTripView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingTripView.swift; sourceTree = "<group>"; };
 		4EEB3D192C96BE0800DE9332 /* ThemedTripView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemedTripView.swift; sourceTree = "<group>"; };
 		4EEB3D1B2C96C06200DE9332 /* RouteDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteDetailView.swift; sourceTree = "<group>"; };
-		4EEB3D1D2C9EB65600DE9332 /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Route.swift; path = Seoullo/Course/Views/RecommendTripView/Route.swift; sourceTree = SOURCE_ROOT; };
-		4EEB3D1F2C9EBC6800DE9332 /* RouteSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RouteSummary.swift; path = Seoullo/Course/Views/RecommendTripView/RouteSummary.swift; sourceTree = SOURCE_ROOT; };
+		4EEB3D1D2C9EB65600DE9332 /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Route.swift; path = Seoullo/Course/Models2/Route.swift; sourceTree = SOURCE_ROOT; };
+		4EEB3D1F2C9EBC6800DE9332 /* RouteSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RouteSummary.swift; path = Seoullo/Course/Models2/RouteSummary.swift; sourceTree = SOURCE_ROOT; };
 		E113F50F2C9C6FF600284ED2 /* MainMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMapView.swift; sourceTree = "<group>"; };
 		E113F5112C9F311A00284ED2 /* MainMapModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMapModalView.swift; sourceTree = "<group>"; };
 		E113F5132CA052E900284ED2 /* TripManageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripManageView.swift; sourceTree = "<group>"; };
@@ -102,12 +102,12 @@
 		E2C565F92CA039AC008FE09E /* Secrets.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Secrets.xcconfig; sourceTree = "<group>"; };
 		E2C565FA2CA03B2B008FE09E /* LocationInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationInfoView.swift; sourceTree = "<group>"; };
 		E2C565FC2CA03B47008FE09E /* CategoryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryButton.swift; sourceTree = "<group>"; };
-		E2C565FE2CA03BA4008FE09E /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Common.swift; path = Seoullo/Course/Views/CulturalView/Common.swift; sourceTree = SOURCE_ROOT; };
+		E2C565FE2CA03BA4008FE09E /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Common.swift; path = Seoullo/Course/Models2/Common.swift; sourceTree = SOURCE_ROOT; };
 		E2C566002CA0532F008FE09E /* CulturalModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CulturalModalView.swift; sourceTree = "<group>"; };
 		E2C566032CA07921008FE09E /* DetailMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMainView.swift; sourceTree = "<group>"; };
-		E2C566052CA07E5F008FE09E /* Detail1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Detail1.swift; path = Seoullo/Course/Views/DetailView/Detail1.swift; sourceTree = SOURCE_ROOT; };
-		E2C566072CA083B2008FE09E /* Detail2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Detail2.swift; path = Seoullo/Course/Views/DetailView/Detail2.swift; sourceTree = SOURCE_ROOT; };
-		E2C566092CA083F0008FE09E /* Detail3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Detail3.swift; path = Seoullo/Course/Views/DetailView/Detail3.swift; sourceTree = SOURCE_ROOT; };
+		E2C566052CA07E5F008FE09E /* Detail1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Detail1.swift; path = Seoullo/Course/Models2/Detail1.swift; sourceTree = SOURCE_ROOT; };
+		E2C566072CA083B2008FE09E /* Detail2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Detail2.swift; path = Seoullo/Course/Models2/Detail2.swift; sourceTree = SOURCE_ROOT; };
+		E2C566092CA083F0008FE09E /* Detail3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Detail3.swift; path = Seoullo/Course/Models2/Detail3.swift; sourceTree = SOURCE_ROOT; };
 		E2E485EE2CA1D25600821313 /* CommonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CommonViewModel.swift; path = Seoullo/Course/Views/DetailView/CommonViewModel.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -124,6 +124,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4EC1E67B2CA787A100A8BF41 /* Models2 */ = {
+			isa = PBXGroup;
+			children = (
+				4EEB3D1D2C9EB65600DE9332 /* Route.swift */,
+				4EEB3D1F2C9EBC6800DE9332 /* RouteSummary.swift */,
+				E2C565FE2CA03BA4008FE09E /* Common.swift */,
+				E2C566052CA07E5F008FE09E /* Detail1.swift */,
+				E2C566072CA083B2008FE09E /* Detail2.swift */,
+				E2C566092CA083F0008FE09E /* Detail3.swift */,
+			);
+			path = Models2;
+			sourceTree = "<group>";
+		};
 		4EEB3D072C96640100DE9332 /* RecommendTripView */ = {
 			isa = PBXGroup;
 			children = (
@@ -270,6 +283,7 @@
 		E28B13712C931839005F6236 /* Course */ = {
 			isa = PBXGroup;
 			children = (
+				4EC1E67B2CA787A100A8BF41 /* Models2 */,
 				E28B13742C93192D005F6236 /* Models */,
 				E28B13732C931917005F6236 /* ViewModels */,
 				E28B13722C931910005F6236 /* Views */,
@@ -304,12 +318,6 @@
 		E28B13742C93192D005F6236 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				4EEB3D1D2C9EB65600DE9332 /* Route.swift */,
-				4EEB3D1F2C9EBC6800DE9332 /* RouteSummary.swift */,
-				E2C565FE2CA03BA4008FE09E /* Common.swift */,
-				E2C566052CA07E5F008FE09E /* Detail1.swift */,
-				E2C566072CA083B2008FE09E /* Detail2.swift */,
-				E2C566092CA083F0008FE09E /* Detail3.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
